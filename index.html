@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="style.css">
+    <title>Airbnb | Holiday rentals, cabins, beach houses & more</title>
+</head>
+
+<body>
+    <header>
+        <div
+            class="grid grid-cols-3 px-16 w-screen h-20 border-b-[1px]  border-gray-200 items-center fixed top-0 bg-white">
+            <img src="./images/airbnb-logo.png" alt="" class="h-16 w-28">
+            <div class="flex justify-evenly items-center border-1 border-gray-300 rounded-full shadow-md h-12 w-96">
+                <button class="border-r-2 border-gray-200 text-sm text-[#222222] font-medium px-4">Anywhere</button>
+                <button class="border-r-2 border-gray-200 text-sm text-[#222222] font-medium px-4">Any week</button>
+                <button class="text-sm font-medium text-gray-500 px-4">Add guests</button>
+                <i class="fa-solid fa-magnifying-glass bg-red-500 text-white rounded-full p-2"></i>
+            </div>
+            <div class="flex justify-end items-center gap-8">
+                <button class="text-sm text-[#222222] font-medium">Airbnb your home</button>
+                <span class="material-symbols-outlined">language</span>
+                <div
+                    class="flex justify-evenly items-center gap-2 border-1 border-gray-300 rounded-full shadow-md h-10 w-20 py-1.25 pr-1.25 pl-2">
+                    <i class="fa-solid fa-bars"></i>
+                    <button><span class="material-symbols-outlined pt-1">account_circle</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="flex items-center h-24 space-x-5 justify-center top-20 fixed bg-white w-screen shadow-md">
+            <div class="flex items-center justify-center space-x-10">
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 pl-16 transition-all">
+                    <img src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">Cabins</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+                        alt="" class="h-6 w-6">
+                    <p class="text-xs font-[600]">Icons</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">Countryside</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/pictures/4d4a4eba-c7e4-43eb-9ce2-95e1d200d10e.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">Treehouses</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">Mansions</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/pictures/f0c5ca0f-5aa0-4fe5-b38d-654264bacddf.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">Play</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">Amazing Pools</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/pictures/aaa02c2d-9f0d-4c41-878a-68c12ec6c6bd.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">Farms</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">Amazing views</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">Rooms</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">OMG!</p>
+                </div>
+                <div class="flex flex-col items-center text-gray-400 hover:text-black gap-2 transition-all">
+                    <img src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg" alt=""
+                        class="h-6 w-6">
+                    <p class="text-xs font-[600]">Luxe</p>
+                </div>
+            </div>
+            <span class="material-symbols-outlined pl-4">arrow_forward_ios</span>
+            <div class="flex justify-around items-center rounded-xl shadow-md h-12 w-24 border border-gray-200">
+                <span class="material-symbols-outlined pl-2">tune</span>
+                <p class="text-xs font-medium pr-2 text-[#222]">Filters</p>
+            </div>
+        </div>
+    </header>
+    <main class="mt-14 mx-10">
+        <div class="mt-60">
+            <div class="grid grid-cols-4 pl-8 mb-15">
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/b2c0f556-f726-4db8-985f-25a668369fe7.jpg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Shinano, Kamiminochi District, Japan</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.93</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">5,688 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">6-11 Apr</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹39,396</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/f0ea4cba-c771-41b6-92c5-caa646edb513.jpg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Jibhi, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.89</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">332 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">1-6 Jun</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹6,846</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1311360303087056669/original/8c4d2524-eba4-46b4-aa2c-8949568bdaf4.jpeg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Shiah, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">360 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">1-6 Apr</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹5,020</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-851221457069159416/original/827b7144-bfa4-4bb0-bd69-02579295bf9b.jpeg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Jibhi, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.95</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">332 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">5-10 Apr</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹12,325</span> night</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 pl-8 mb-15">
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-853189955208971108/original/aab48bd2-edb0-4ffd-87a3-f5cc7d7c3be2.jpeg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Sainj, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.93</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">353 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">4-9 Apr</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹2,852</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-824254092645253914/original/299f89ab-b4b5-4120-99ca-f6c5ae0b10dc.jpeg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Nago, Japan</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">4,980 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">6-11 May</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹1,16,385</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/fea3dd7f-f50f-4655-9350-3378a041fa58.jpg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">SJochon-eup, Jeju-si, South Korea</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.86</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">4,699 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">6-11 May</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹4,912</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/fffa2cf7-bb7c-4c45-b09d-22e4d24016f3.jpg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Siloti Pant, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.93</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">246 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">18-23 Jul</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹3,424</span> night</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 pl-8 mb-15">
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1265698983331884820/original/2b977b23-f5ae-49bf-b18c-938374a26e42.jpeg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Sajla, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.89</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">397 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">2-7 Apr</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹6,733</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-784291198551757159/original/9c2eafcb-79a7-422e-b9c4-4229632ed494.jpeg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Kecamatan Sukasada, Indonesia</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.99</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">5,770 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">7-12 Apr</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹15,002</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/miso/Hosting-988079195738441337/original/d348434f-32e5-4736-897c-dc94b77c26e1.jpeg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Tagaytay, Philippines</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.97</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">4,774 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">1-6 Jun</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹7,978</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/e3059f2c-894e-44a4-ba0f-b4721420fd96.jpg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Tabanan Regency, Indonesia</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.83</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">5,783 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">1-6 May</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹6,758</span> night</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 pl-8 mb-15">
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/0591fcdd-f710-4e24-8684-e582f8438c22.jpg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Jibhi, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.88</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">333 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">30 Apr - 5 May</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹6,899</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/65330740/a5b58255_original.jpg?im_w=720" alt=""
+                        class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Rizal, Philippines</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.90</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">4,746 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">10-15 Apr</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹3,860</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/07eda303-0a89-419e-a7b8-1b788ef4e6f0.jpg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Nagano, Japan</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.92</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">5,680 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">7-12 May</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹14,249</span> night</p>
+                </div>
+                <div class="flex flex-col h-101 w-76">
+                    <img src="https://a0.muscache.com/im/pictures/289eb631-bd4d-4e6b-aef4-3da4a6b20b8e.jpg?im_w=720"
+                        alt="" class="w-76 h-80 object-cover rounded-xl">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm text-[#222] font-medium">Chiang Mai, Thailand</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star" style="color: #000222;"></i>
+                            <p class="text-sm text-[#222] font-light">4.86</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-500 font-[500]">2,463 kilometers away</p>
+                    <p class="text-sm text-gray-500 font-[500]">1-6 Apr</p>
+                    <p class="text-sm text-[#222] mt-2"><span class="font-[500]">₹5,960</span> night</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer
+        class="flex justify-between h-12 items-center px-10 fixed bottom-0 w-screen bg-white border border-gray-200">
+        <div class="flex text-sm font-base space-x-2">
+            <p>© 2025 Airbnb, Inc.</p>
+            <p>·</p>
+            <p><a href="https://www.airbnb.co.in/terms/privacy_policy" class="decoration-0 hover:underline">Privacy</a>
+            </p>
+            <p>·</p>
+            <p><a href="https://www.airbnb.co.in/terms" class="decoration-0 hover:underline">Terms</a></p>
+            <p>·</p>
+            <p><a href="https://www.airbnb.co.in/sitemaps/v2" class="decoration-0 hover:underline">Sitemap</a></p>
+            <p>·</p>
+            <p><a href="https://www.airbnb.co.in/about/company-details" class="decoration-0 hover:underline">Company
+                    details</a></p>
+        </div>
+        <div class="flex space-x-4 text-sm font-medium">
+            <span class="material-symbols-outlined">language</span>
+            <p>English (IN)</p>
+            <p>₹ INR</p>
+            <p>Support & resources</p>
+        </div>
+    </footer>
+</body>
+
+</html>
